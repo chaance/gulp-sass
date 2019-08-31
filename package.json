@@ -1,27 +1,33 @@
 {
   "name": "@chancestrickland/gulp-sass",
   "version": "1.0.0",
-  "description": "Gulp plugin for sass",
-  "main": "index.js",
-  "engines": {
-    "node": ">=6"
-  },
-  "scripts": {
-    "test": "jest test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/dlmanning/gulp-sass"
-  },
+  "description": "Gulp plugin for Sass",
   "keywords": [
     "gulpplugin",
     "sass",
     "gulp"
   ],
-  "author": "David Manning",
+  "author": {
+    "name": "Chance Strickland",
+    "email": "hi@chancedigital.io",
+    "url": "https://chancedigital.io",
+    "role": "developer"
+  },
+  "contributors": ["David Manning"],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chancestrickland/gulp-sass"
+  },
   "bugs": {
-    "url": "https://github.com/dlmanning/gulp-sass/issues"
+    "url": "https://github.com/chancestrickland/gulp-sass/issues"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "jest test"
   },
   "dependencies": {
     "chalk": "^2.4.2",
@@ -50,6 +56,12 @@
     "rimraf": "3.0.0",
     "should": "13.2.3",
     "vinyl": "2.2.0"
+  },
+  "peerDependencies": {
+    "gulp": "^4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "prettier": {
     "semi": true,

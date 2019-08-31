@@ -1,8 +1,9 @@
-# gulp-sass [![Build Status](https://travis-ci.org/dlmanning/gulp-sass.svg?branch=master)](https://travis-ci.org/dlmanning/gulp-sass) [![Join the chat at https://gitter.im/dlmanning/gulp-sass](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dlmanning/gulp-sass?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![npm version](https://badge.fury.io/js/gulp-sass.svg)](http://badge.fury.io/js/gulp-sass)
+# @chancestrickland/gulp-sass
+[![npm version](https://badge.fury.io/js/%40chancestrickland%2Fgulp-sass.svg)](https://badge.fury.io/js/%40chancestrickland%2Fgulp-sass)
 
-Sass plugin for [Gulp](https://github.com/gulpjs/gulp).
+Sass plugin for [Gulp](https://github.com/gulpjs/gulp). A fork of [`gulp-sass`](https://github.com/dlmanning/gulp-sass) by [David Manning](https://github.com/dlmanning).
 
-**_Before filing an issue, please make sure you have [Updated to the latest Gulp Sass](https://github.com/dlmanning/gulp-sass/wiki/Update-to-the-latest-Gulp-Sass) and have gone through our [Common Issues and Their Fixes](https://github.com/dlmanning/gulp-sass/wiki/Common-Issues-and-Their-Fixes) section._**
+**_Before filing an issue, please make sure you have [Updated to the latest Gulp Sass](https://github.com/chancestrickland/gulp-sass/wiki/Update-to-the-latest-Gulp-Sass) and have gone through our [Common Issues and Their Fixes](https://github.com/chancestrickland/gulp-sass/wiki/Common-Issues-and-Their-Fixes) section._**
 
 # Support
 
@@ -13,7 +14,7 @@ Only [Active LTS and Current releases][1] are supported.
 # Install
 
 ```
-npm install node-sass gulp-sass --save-dev
+npm install @chancestrickland/node-sass gulp-sass --save-dev
 ```
 
 # Basic Usage
@@ -24,7 +25,7 @@ Something like this will compile your Sass files:
 'use strict';
 
 var gulp = require('gulp');
-var sass = require('gulp-sass');
+var sass = require('@chancestrickland/gulp-sass');
 
 sass.compiler = require('node-sass');
 
@@ -45,7 +46,7 @@ You can also compile synchronously, doing something like this:
 'use strict';
 
 var gulp = require('gulp');
-var sass = require('gulp-sass');
+var sass = require('@chancestrickland/gulp-sass');
 
 sass.compiler = require('node-sass');
 
@@ -72,7 +73,7 @@ Note that when using Dart Sass, **synchronous compilation is twice as fast as as
 
 var Fiber = require('fibers');
 var gulp = require('gulp');
-var sass = require('gulp-sass');
+var sass = require('@chancestrickland/gulp-sass');
 
 sass.compiler = require('sass');
 

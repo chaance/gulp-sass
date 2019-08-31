@@ -4,8 +4,8 @@ Gulp Sass is a very light-weight [Gulp](https://github.com/gulpjs/gulp) wrapper 
 
 ## Submitting Issues
 
-* Before creating a new issue, perform a [cursory search](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adlmanning%2Fgulp-sass+repo%3Asass%2Fnode-sass+repo%3Asass%2Flibsass+repo%3Asass%2Fsass+repo%3Asass-eyeglass%2Feyeglass) in the Gulp Sass, Node Sass, Libsass, and main Sass repos to see if a similar issue has already been submitted. Please also refer to our [Common Issues and Their Fixes](https://github.com/dlmanning/gulp-sass/wiki/Common-Issues-and-Their-Fixes) page for some basic troubleshooting.
-* You can create an issue [here](https://github.com/dlmanning/gulp-sass/issues). Please include as many details as possible in your report.
+* Before creating a new issue, perform a [cursory search](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adlmanning%2Fgulp-sass+repo%3Asass%2Fnode-sass+repo%3Asass%2Flibsass+repo%3Asass%2Fsass+repo%3Asass-eyeglass%2Feyeglass) in the Gulp Sass, Node Sass, Libsass, and main Sass repos to see if a similar issue has already been submitted. Please also refer to our [Common Issues and Their Fixes](https://github.com/chancestrickland/gulp-sass/wiki/Common-Issues-and-Their-Fixes) page for some basic troubleshooting.
+* You can create an issue [here](https://github.com/chancestrickland/gulp-sass/issues). Please include as many details as possible in your report.
 * Issue titles should be descriptive, explaining at the high level what it is about.
 * Please include the version of `gulp-sass`, Node, and NPM you are using, as well as what operating system you are having a problem on.
 * _Do not open a [pull request](#pull-requests) to resolve an issue without first receiving feedback from a `collaborator` or `owner` and having them agree on a solution forward_.
@@ -24,7 +24,7 @@ Gulp Sass is a very light-weight [Gulp](https://github.com/gulpjs/gulp) wrapper 
 * Do not squash or rebase your commits when submitting a Pull Request. It makes it much harder to follow your work and make incremental changes.
 * Update the [CHANGELOG](#maintaining-thechangelog) with your changes.
 * Branches should be made off of the most current `master` branch from `git@github.com:dlmanning/gulp-sass.git`
-* Pull requests should be made into our [master](https://github.com/dlmanning/gulp-sass/tree/master) branch.
+* Pull requests should be made into our [master](https://github.com/chancestrickland/gulp-sass/tree/master) branch.
 
 ### Git Commit Messages
 
