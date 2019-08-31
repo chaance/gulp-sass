@@ -1,5 +1,5 @@
 # @chancestrickland/gulp-sass
-[![npm version](https://badge.fury.io/js/%40chancestrickland%2Fgulp-sass.svg)](https://badge.fury.io/js/%40chancestrickland%2Fgulp-sass)
+[![npm version](https://badge.fury.io/js/%40chancestrickland%2Fgulp-sass.svg)](https://badge.fury.io/js/%40chancestrickland%2Fgulp-sass) [![Greenkeeper badge](https://badges.greenkeeper.io/chancestrickland/gulp-sass.svg)](https://greenkeeper.io/)
 
 Sass plugin for [Gulp](https://github.com/gulpjs/gulp). A fork of [`gulp-sass`](https://github.com/dlmanning/gulp-sass) by [David Manning](https://github.com/dlmanning).
 
