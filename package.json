@@ -1,0 +1,59 @@
+{
+  "name": "@chancestrickland/gulp-sass",
+  "version": "1.0.0",
+  "description": "Gulp plugin for sass",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "jest test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dlmanning/gulp-sass"
+  },
+  "keywords": [
+    "gulpplugin",
+    "sass",
+    "gulp"
+  ],
+  "author": "David Manning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dlmanning/gulp-sass/issues"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "lodash": "^4.17.15",
+    "node-sass": "^4.12.0",
+    "plugin-error": "^1.0.1",
+    "replace-ext": "^1.0.0",
+    "strip-ansi": "^5.2.0",
+    "through2": "^3.0.1",
+    "vinyl-sourcemaps-apply": "^0.2.1"
+  },
+  "devDependencies": {
+    "@chancedigital/eslint-config": "4.1.0",
+    "autoprefixer": "9.6.1",
+    "babel-eslint": "10.0.3",
+    "eslint": "6.3.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jest": "22.16.0",
+    "eslint-plugin-node": "^9.2.0",
+    "globule": "1.2.1",
+    "gulp": "4.0.2",
+    "gulp-postcss": "8.0.0",
+    "gulp-sourcemaps": "2.6.5",
+    "gulp-tap": "2.0.0",
+    "jest": "24.9.0",
+    "rimraf": "3.0.0",
+    "should": "13.2.3",
+    "vinyl": "2.2.0"
+  },
+  "prettier": {
+    "semi": true,
+    "trailingComma": "es5",
+    "singleQuote": true
+  }
+}
