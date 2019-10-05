@@ -1,6 +1,6 @@
 {
   "name": "@chancestrickland/gulp-sass",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gulp plugin for Sass",
   "keywords": [
     "gulpplugin",
@@ -41,13 +41,12 @@
   },
   "devDependencies": {
     "@chancedigital/eslint-config": "4.1.0",
-    "autoprefixer": "9.6.2",
+    "autoprefixer": "9.6.4",
     "babel-eslint": "10.0.3",
-    "eslint": "6.4.0",
+    "eslint": "6.5.1",
     "eslint-plugin-import": "2.18.2",
-    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-node": "10.0.0",
     "eslint-plugin-jest": "22.17.0",
-    "eslint-plugin-node": "^9.2.0",
     "globule": "1.2.1",
     "gulp": "4.0.2",
     "gulp-postcss": "8.0.0",
