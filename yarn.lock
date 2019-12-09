@@ -130,10 +130,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@chancedigital/eslint-config@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@chancedigital/eslint-config/-/eslint-config-4.1.0.tgz#ca6d0575932eea23d686897b79af81f9bbb57de3"
-  integrity sha512-ZB4zOmztr/c/BOhhM1NhRfUMZe8LxKhIcpx4ztXBT+DDRKqyoeo9Dn0IaC0Ev5XMHCkM3BxgE38b//59Fe6zwA==
+"@chancedigital/eslint-config@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@chancedigital/eslint-config/-/eslint-config-5.0.0.tgz#7ef3c8e60b3f120a2e5ec24e95f4aa83feb223b1"
+  integrity sha512-kFfbXOzf/va1ajph4bMjydaVIxKBloOjtantFhQALqcJAF3x63klBT2RV+tUhLsv6VdalPV8oC4X4X0NgdV+kw==
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.3"
