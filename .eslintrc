@@ -1,5 +1,8 @@
 {
-  "extends": "@chancedigital/eslint-config/node",
+  "extends": [
+    "@chancedigital/eslint-config/jest",
+    "@chancedigital/eslint-config/node"
+  ],
   "root": true,
   "env": {
     "node": true

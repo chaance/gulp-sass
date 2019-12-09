@@ -14,7 +14,6 @@ const PLUGIN_NAME = 'gulp-sass';
 //////////////////////////////
 const gulpSass = (options, sync) =>
   through.obj((file, enc, cb) => {
-    // eslint-disable-line consistent-return
     if (file.isNull()) {
       return cb(null, file);
     }
@@ -28,7 +27,7 @@ const gulpSass = (options, sync) =>
     }
 
     if (!file.contents.length) {
-      file.path = replaceExtension(file.path, '.css'); // eslint-disable-line no-param-reassign
+      file.path = replaceExtension(file.path, '.css');
       return cb(null, file);
     }
 
@@ -85,7 +84,6 @@ const gulpSass = (options, sync) =>
           // Prepend the path to all files in the sources array except the file that's being worked on
           sourceFileIndex = sassMap.sources.indexOf(sassMapFile);
           sassMap.sources = sassMap.sources.map((source, index) => {
-            // eslint-disable-line arrow-body-style
             return index === sourceFileIndex
               ? source
               : path.join(sassFileSrcPath, source);
@@ -101,8 +99,8 @@ const gulpSass = (options, sync) =>
         applySourceMap(file, sassMap);
       }
 
-      file.contents = sassObj.css; // eslint-disable-line no-param-reassign
-      file.path = replaceExtension(file.path, '.css'); // eslint-disable-line no-param-reassign
+      file.contents = sassObj.css;
+      file.path = replaceExtension(file.path, '.css');
 
       cb(null, file);
     };
@@ -118,10 +116,10 @@ const gulpSass = (options, sync) =>
         '\n'
       );
 
-      error.messageFormatted = message; // eslint-disable-line no-param-reassign
-      error.messageOriginal = error.message; // eslint-disable-line no-param-reassign
-      error.message = stripAnsi(message); // eslint-disable-line no-param-reassign
-      error.relativePath = relativePath; // eslint-disable-line no-param-reassign
+      error.messageFormatted = message;
+      error.messageOriginal = error.message;
+      error.message = stripAnsi(message);
+      error.relativePath = relativePath;
 
       return cb(new PluginError(PLUGIN_NAME, error));
     };
@@ -131,7 +129,6 @@ const gulpSass = (options, sync) =>
       // Async Sass render
       //////////////////////////////
       const callback = (error, obj) => {
-        // eslint-disable-line consistent-return
         if (error) {
           return errorM(error);
         }
